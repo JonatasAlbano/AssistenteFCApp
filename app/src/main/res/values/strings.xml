@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AssistenteFC</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="array_formation">
+        <item>Formação</item>
+        <item>4-4-2</item>
+        <item>4-3-3</item>
+        <item>5-4-2</item>
+    </string-array>
+
+    <string-array name="array_position">
+        <item>Pos. para gastar mais</item>
+        <item>Atacante</item>
+        <item>Meia</item>
+        <item>Zagueiro</item>
+        <item>Lateral</item>
+        <item>Goleiro</item>
+    </string-array>
+</resources>

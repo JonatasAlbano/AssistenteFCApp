@@ -1,0 +1,102 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cartola.jonatas.assistentefc.fragment.SuggestionFragment">
+
+     <EditText
+         android:hint="Quantidade de Cartoletas"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:id="@+id/text_cartoletas"
+         android:inputType="number"
+         android:maxLength="3"/>
+     <HorizontalScrollView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp" >
+         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginTop="20dp"
+             android:id="@+id/group_formation">
+             <RadioButton android:id="@+id/radio_343"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="3-4-3" />
+             <RadioButton android:id="@+id/radio_352"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="3-5-2" />
+             <RadioButton android:id="@+id/radio_433"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="4-3-3" />
+             <RadioButton android:id="@+id/radio_442"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="4-4-2" />
+             <RadioButton android:id="@+id/radio_451"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="4-5-1" />
+             <RadioButton android:id="@+id/radio_532"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="5-3-2" />
+
+             <RadioButton android:id="@+id/radio_541"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="5-4-1" />
+         </RadioGroup>
+     </HorizontalScrollView>
+     <HorizontalScrollView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20dp" >
+         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginTop="20dp"
+             android:id="@+id/group_position">
+             <RadioButton android:id="@+id/radio_goleiro"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Goleiro" />
+             <RadioButton android:id="@+id/radio_zagueiro"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Zagueiro" />
+             <RadioButton android:id="@+id/radio_lateral"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Lateral" />
+             <RadioButton android:id="@+id/radio_meia"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Meia" />
+             <RadioButton android:id="@+id/radio_atacante"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Atacante" />
+         </RadioGroup>
+     </HorizontalScrollView>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="*Escolha uma posição para gastar mais"
+         android:textColor="#666666"/>
+
+     <Button
+         android:id="@+id/button_generate_team"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+         android:text="Gerar time"
+         android:layout_gravity="center"/>
+ </LinearLayout>
