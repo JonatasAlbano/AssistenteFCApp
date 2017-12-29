@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by Giovana on 29/10/2017.
+ * Created by jonatas on 29/10/2017.
  */
 
 public class StatisticUtils {
